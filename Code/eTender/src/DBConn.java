@@ -12,6 +12,6 @@ public class DBConn {
 	}
 	
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
-		System.out.println("DBConn.getConnection()"+DBConn.getConnection());
+		System.out.println("DBConn.getConnection()==> 1"+DBConn.getConnection());
 	}
 }
